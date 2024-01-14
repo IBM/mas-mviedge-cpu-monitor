@@ -1,6 +1,5 @@
-# WORK IN PROGRESS - 08 January 2024
 # Install MVI Edge on Ubuntu VMWare (Mac) - Run in CPU mode - Integrate with MAS Monitor - Find Gold !
-**Author:** Christophe Lucas **Last Updated:** 04 January 2024 <br>
+**Author:** Christophe Lucas **Last Updated:** 15 January 2024 <br>
 **Disclaimer:** This tutorial is delivered as-is and is NOT formal IBM product documentation in any way
 ## Table of Contents
 - [Introduction](#intro)
