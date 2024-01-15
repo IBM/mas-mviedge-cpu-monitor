@@ -60,7 +60,7 @@ This tutorial was built using:
 - Ubuntu 20.04.6 LTS (Focal Fossa)
 - Maximo Visual Inspection (aka MVI, 8.8.1) + Maximo Monitor (aka Monitor, 8.10.4) running on Maximo Application Suite (aka MAS 8.10.4) + Maximo Visual Edge (aka MVIE, 8.8)
 
-15 January 2024 Update: This tutorial was run with a later Ubuntu version (22.04.3), and the latest MVI Edge (8.11). Except for some minor UI changes, the same steps still work.
+15 January 2024 Update: This tutorial was run with a later Ubuntu version (22.04.3), and the latest MVI Edge (8.8.1). Except for some minor UI changes, the same steps still work.
 
 <a id='ubuntu'></a>
 # Install Ubuntu on VMWare on Mac
