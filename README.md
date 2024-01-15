@@ -57,9 +57,11 @@ To complete this tutorial, you will need:
 
 This tutorial was built using:
 - VMWare Fusion 12.2.3 on a Mac (macOS Ventura 13.5.1, Radeon Pro 560X 4 GB Intel UHD Graphics 630 1536 MB)
+- Ubuntu 20.04.6 LTS (Focal Fossa)
 - Maximo Visual Inspection (aka MVI, 8.8.1) + Maximo Monitor (aka Monitor, 8.10.4) running on Maximo Application Suite (aka MAS 8.10.4) + Maximo Visual Edge (aka MVIE, 8.8)
+15 january Update: This tutorial was run with a later Ubuntu version (22.04.3), and the latest MVI Edge (8.11). Except for some minor UI changes, the same steps still work.
 
-<a id='ubuntu'></a>
+have <a id='ubuntu'></a>
 # Install Ubuntu on VMWare on Mac
 The following image highlights the main screens that you will encounter while executing this section:
 ![image](/images/MVIE1.jpg)
