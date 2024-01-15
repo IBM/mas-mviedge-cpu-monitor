@@ -15,7 +15,6 @@
         - [Enable CPU Mode in vision-edge.properties](#cpu)
         - [Run startedge.sh for first time](#runedge)
         - [Assign MVI Edge Unique Prefix](#prefix)
-    - [Optional - Upgrade MVI Edge](#mvieu)
 - [Integrate MVI Edge with MVI & Monitor](#mviemvimonitor)
     - [Setup MVI Edge to MVI Connection](#mviemvi)
     - [Setup MVI Edge to Monitor Connection](#mviemonitor)
@@ -170,28 +169,6 @@ Change the default `node_prefix` (that will be the root name of Monitor Device T
 1. Under the `/MVIE88/vision-edge/volume/run/var/config/monitor` folder, Run `$sudo gedit monitor.json` to open the file. 
 2. Find the line containing `"node_prefix": "MVI"` and change it to e.g. `"node_prefix": "MVIE88A_"`. Note that because the value of `node_prefix` is what will appear in front of all Device Types you will later create in Monitor, do NOT choose too-long a name (+ using an underscore `_` at the end is a good idea).
 3. Under `/MVIE88/vision-edge` folder, run `sudo ./restartedge.sh`
-
-<a id='mvieu'></a>
-## Optional - Upgrade MVI Edge
-If you installed e.g. MVI Edge 8.8.0 (in 2023) and want to upgrade to latest MVI Edge 8.9.0 (in 2024), the upgrade process is easy. Here are the steps - based on <a href="https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=edge-seamlessly-upgrading" target="_blank">Seamlessly upgrading</a> documentation.
-Under the `/MVIE88/vision-edge` folder:
-1. Run `sudo docker login cp.icr.io --username cp --password YOUR_ENTITLEMENT_KEY` where YOUR_ENTITLEMENT_KEY is the key you downloaded in earlier [Get (free) IBM Cloud Entitlement Key with your IBM ID](#key) section.
-2. Run ```sudo docker run --rm -v pwd`:/opt/ibm/vision-edge -e hostname=`hostname -f` --privileged -u root cp.icr.io/cp/visualinspection/vision-edge-inception:8.9.0``` to upgrade to e.g. MVIEdge 8.9.0.
-3. Check `/MVIE88/vision-edge/volume/run/var/config/vision-edge.properties` and update `/MVIE88/vision-edge/volume/run/var/config/monitor/monitor.json` file (run `sudo gedit monitor.json&`) and update `node_prefix` from `"node_prefix": "MVIE88A_"` to `"node_prefix": "MVIE89A_"`. Click `Save`
-4. Back to `/MVIE88/vision-edge`, run `sudo ./startedge.sh`. This can take up to 15 minutes.
-```
-******************************************************************
-******************************************************************
-   Upgrading from 8.8.0 to 8.9.0
-   requires that all passwords be reset.
-******************************************************************
-******************************************************************
-   New passwords are:
-     userid: masadmin password: af@blabla&%$)SY
-******************************************************************
-****************************************************************** 
-```
-
 
 <a id='mviemvimonitor'></a>
 # Integrate MVI Edge with MVI & Monitor
