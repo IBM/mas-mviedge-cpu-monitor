@@ -1,5 +1,5 @@
 # Install MVI Edge on Ubuntu VMWare (Mac) - Run in CPU mode - Integrate with MAS Monitor - Find Gold !
-**Author:** Christophe Lucas **Last Updated:** 15 January 2024 <br>
+**Author:** Christophe Lucas **Last Updated:** 21 January 2024 <br>
 **Disclaimer:** This tutorial is delivered as-is and is NOT formal IBM product documentation in any way
 ## Table of Contents
 - [Introduction](#intro)
@@ -93,12 +93,12 @@ The following image highlights the main screens that you will encounter while ex
 We are following the <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery?topic=planning-installing-docker-nvidia-docker2#installing-sitedatakeyworddocker-and-nvidia-docker2__section_p4b_qdm_bvb__title__1" target="_blank">Installing Docker® and nvidia-docker2 Procedure - Ubuntu</a> section of the MVI Documentation (select `On x86_64` sub section).<br><br>
 Open a Terminal on your VMWare and from your home folder:
 
-1. Run `sudo apt-get update`
-2. Run `sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
-3. Run `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-4. Run `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
-5. Run `sudo apt-get update`
-6. Run `sudo apt-get install docker-ce`
+1. Run `sudo apt-get update`.
+2. Run `sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common`.
+3. Run `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`.
+4. Run `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`.
+5. Run `sudo apt-get update`.
+6. Run `sudo apt-get install docker-ce`.
 
 **NOTE**: Because we will be using MVI Edge in CPU-only mode, it is NOT required to install `nvidia-docker2` as per section 2 of the <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery?topic=planning-installing-docker-nvidia-docker2#installing-sitedatakeyworddocker-and-nvidia-docker2__section_p4b_qdm_bvb__title__1" target="_blank">Installing Docker® and nvidia-docker2 Procedure - Ubuntu</a> documentation.
 
