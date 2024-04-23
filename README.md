@@ -40,9 +40,10 @@ In this tutorial, you will learn how to:
 - run MVI Edge inspections using the provided Rocks_Samples images data set and send inspection results to Monitor
 - create data items in Monitor and dashboards to count the amount of Gold found during the inspections<br>
 
+**Expected Tutorial Duration:** 1st time = 3 hours, 2nd time = 27 minutes.<br>
+
 The following image highlights the main screens that you will encounter while executing this tutorial:
 ![image](/images/MVIE0.jpg)
-**Expected Tutorial Duration:** 1st time = 3 hours, 2nd time = 27 minutes
 
 Acronyms used & Product Documentation links: **MVI** = <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery" target="_blank">IBM Maximo Visual Inspection</a>, **MVI Edge** = <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery?topic=integrating-maximo-visual-inspection-edge" target="_blank">IBM Maximo Visual Inspection Edge</a>, **Monitor** = <a href="https://www.ibm.com/docs/en/maximo-monitor/continuous-delivery" target="_blank">IBM Maximo Monitor</a>, **MAS** = <a href="https://www.ibm.com/docs/en/maximo-monitor/continuous-delivery" target="_blank">IBM Maximo Application Suite</a>. 
 
