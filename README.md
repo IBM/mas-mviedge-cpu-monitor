@@ -1,8 +1,8 @@
 # Install MVI Edge on Ubuntu VMWare - Run in CPU mode - Integrate with MAS Monitor - Find Gold !
-**Author:** Christophe Lucas **Last Updated:** 22 April 2024 <br>
+**Author:** Christophe Lucas **Last Updated:** 23 April 2024 <br>
 **Disclaimer:** This tutorial is delivered as-is and is NOT formal IBM product documentation in any way
 ## Table of Contents
-- [Introduction](#intro)
+- [Introduction & Overview](#intro)
 - [Prerequisites](#prereq)
 - [Install Ubuntu on VMWare on Mac](#ubuntu)
     - [Download & Install Ubuntu](#iso)
@@ -38,8 +38,10 @@ In this tutorial, you will learn how to:
 - download and deploy a provided MVI Rock-recognizing TinyYOLO model to your MVI Edge
 - setup MVI Edge station and inspections
 - run MVI Edge inspections using the provided Rocks_Samples images data set and send inspection results to Monitor
-- create data items in Monitor and dashboards to count the amount of Gold found during the inspections
+- create data items in Monitor and dashboards to count the amount of Gold found during the inspections<br>
 
+The following image highlights the main screens that you will encounter while executing this tutorial:
+![image](/images/MVIE0.jpg)
 **Expected Tutorial Duration:** 1st time = 3 hours, 2nd time = 27 minutes
 
 Acronyms used & Product Documentation links: **MVI** = <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery" target="_blank">IBM Maximo Visual Inspection</a>, **MVI Edge** = <a href="https://www.ibm.com/docs/en/maximo-vi/continuous-delivery?topic=integrating-maximo-visual-inspection-edge" target="_blank">IBM Maximo Visual Inspection Edge</a>, **Monitor** = <a href="https://www.ibm.com/docs/en/maximo-monitor/continuous-delivery" target="_blank">IBM Maximo Monitor</a>, **MAS** = <a href="https://www.ibm.com/docs/en/maximo-monitor/continuous-delivery" target="_blank">IBM Maximo Application Suite</a>. 
